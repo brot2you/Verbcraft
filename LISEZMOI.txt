@@ -1,4 +1,4 @@
-VERBCRAFT — Version 3.3 — 30 octobre 2026
+VERBCRAFT — Version 3.4 — 30 octobre 2026
 
 DÉMARRER
 Décompressez le ZIP puis ouvrez index.html dans un navigateur récent.
@@ -99,3 +99,14 @@ Effets sonores synthétisés par le navigateur (Web Audio), sans fichier audio :
 Bouton haut-parleur dans l’en-tête pour couper ou remettre les sons ; le choix est mémorisé sur l’appareil. La synthèse vocale des verbes n’est pas concernée par ce bouton.
 Sur iPhone/iPad, les sons démarrent après le premier toucher (règle du système). Le bouton silencieux de l’appareil peut aussi les couper.
 Correction de compatibilité : Object.hasOwn (absent avant iOS 15.4) est désormais complété ; la 3.2 pouvait bloquer l’accueil sur ces appareils.
+
+VERSION 3.4 — COLLECTION
+Mon monde s’ouvre sur trois onglets : Inventaire & artisanat, Coffres, Aménagements (les aménagements existants sont inchangés).
+Blocs-verbes : chacun des 118 verbes est un bloc. Version brute dès la première réussite sans aide (trio, écoute, phrase, correction… ; les exercices à choix et les réponses avec indice ne comptent pas). Version taillée quand le verbe est consolidé dans le carnet. Une vignette « Nouveau bloc » apparaît dans la correction.
+Matière selon le schéma du verbe, pour faire observer les régularités : Bois = A-A-A (cut), Pierre = A-B-B (buy), Or = A-B-A (come), Diamant = A-B-C (go).
+Artisanat : réunir tous les blocs d’un sous-thème des fiches permet de fabriquer son objet (18 objets, +20 XP chacun).
+Coffres : une séance terminée avec au moins 5 réponses donne un coffre (5 par jour au maximum). Il contient un bloc décoratif parmi 20 (communs, rares, précieux). Un doublon rapporte 5 XP. Les coffres non ouverts restent dans l’onglet Coffres.
+Clic sur un bloc trouvé : formes, sens, phrase, écoute et règle de sa matière.
+Tous les visuels de la collection sont dessinés par le code (pixel art), sans image externe.
+Sauvegardes : les acquis existants sont convertis au premier lancement (verbes déjà réussis = blocs trouvés, verbes consolidés = blocs taillés). La collection est incluse dans l’export JSON. « Effacer toute la progression » efface aussi la collection.
+Vérifié dans Chromium (bureau, mobile, navigateur ancien simulé) : gain de bloc, vignette, coffre de fin de séance, plafond quotidien, fabrication, fiche de bloc, onglets, rechargement, conversion d’une ancienne sauvegarde, effacement.
