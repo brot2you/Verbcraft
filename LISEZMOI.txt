@@ -1,4 +1,4 @@
-VERBCRAFT — Version 3.4 — 30 octobre 2026
+VERBCRAFT — Version 3.5 — 30 octobre 2026
 
 DÉMARRER
 Décompressez le ZIP puis ouvrez index.html dans un navigateur récent.
@@ -110,3 +110,6 @@ Clic sur un bloc trouvé : formes, sens, phrase, écoute et règle de sa matièr
 Tous les visuels de la collection sont dessinés par le code (pixel art), sans image externe.
 Sauvegardes : les acquis existants sont convertis au premier lancement (verbes déjà réussis = blocs trouvés, verbes consolidés = blocs taillés). La collection est incluse dans l’export JSON. « Effacer toute la progression » efface aussi la collection.
 Vérifié dans Chromium (bureau, mobile, navigateur ancien simulé) : gain de bloc, vignette, coffre de fin de séance, plafond quotidien, fabrication, fiche de bloc, onglets, rechargement, conversion d’une ancienne sauvegarde, effacement.
+
+VERSION 3.5 — ILLUSTRATIONS DES AMÉNAGEMENTS
+Les quatre aménagements de Mon monde utilisent les nouvelles illustrations fournies : bloc d’herbe (Paysage d’origine), lanterne, bannière, jardinière. Elles s’affichent dans l’onglet Aménagements (grisées tant qu’elles sont verrouillées), sur la carte quand elles sont installées, et le bloc d’herbe dans l’en-tête de l’atelier. Images recadrées, optimisées et intégrées dans index.html.
