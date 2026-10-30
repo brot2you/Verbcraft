@@ -1,4 +1,4 @@
-VERBCRAFT — Version 3.5 — 30 octobre 2026
+VERBCRAFT — Version 3.7 — 30 octobre 2026
 
 DÉMARRER
 Décompressez le ZIP puis ouvrez index.html dans un navigateur récent.
@@ -113,3 +113,20 @@ Vérifié dans Chromium (bureau, mobile, navigateur ancien simulé) : gain de bl
 
 VERSION 3.5 — ILLUSTRATIONS DES AMÉNAGEMENTS
 Les quatre aménagements de Mon monde utilisent les nouvelles illustrations fournies : bloc d’herbe (Paysage d’origine), lanterne, bannière, jardinière. Elles s’affichent dans l’onglet Aménagements (grisées tant qu’elles sont verrouillées), sur la carte quand elles sont installées, et le bloc d’herbe dans l’en-tête de l’atelier. Images recadrées, optimisées et intégrées dans index.html.
+
+VERSION 3.6 — AMÉNAGEMENTS PAR TERRITOIRE
+Chaque territoire a 5 objets propres, débloqués à 1, 3, 5, 10 et 20 verbes consolidés du territoire. Tous peuvent être installés en même temps ; chacun a son emplacement sur la carte (bouton Installer / Retirer).
+École : Pile de livres, Globe terrestre, Tableau noir, Cloche de l’école, Statue du savoir.
+Vie quotidienne : Lanterne, Boîte aux lettres, Jardinière, Banc de parc, Puits.
+Sport : Bannière, Cible de tir à l’arc, Panier de basket, Podium, Coupe géante.
+Cuisine : Tonneau, Ruche, Étal de marché, Four à pain, Potager.
+Une vignette « Aménagement débloqué » apparaît dans la correction quand un palier est atteint.
+Le bloc d’herbe reste l’emblème de l’atelier.
+Ancienne sauvegarde : un aménagement installé est converti vers l’objet du même palier dans son territoire.
+
+ILLUSTRATIONS
+Les 20 objets ont désormais leur illustration (3 de la version 3.5 et 17 nouvelles). Images recadrées, réduites à 256 px et intégrées dans index.html (environ 300 Ko pour les 17).
+Sur téléphone, la carte est petite et les boutons des territoires en recouvrent une partie : certains objets installés y sont masqués. Ils restent visibles sur tablette et ordinateur.
+
+VERSION 3.7 — ILLUSTRATIONS DES OBJETS
+Les 17 caisses provisoires sont remplacées par les illustrations fournies, dans l’onglet Aménagements, sur la carte et dans les vignettes « Aménagement débloqué ». index.html pèse maintenant environ 1,4 Mo.
