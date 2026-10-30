@@ -1,4 +1,4 @@
-VERBCRAFT — Version 3.2 — 30 octobre 2026
+VERBCRAFT — Version 3.3 — 30 octobre 2026
 
 DÉMARRER
 Décompressez le ZIP puis ouvrez index.html dans un navigateur récent.
@@ -92,3 +92,10 @@ Activité Dans l’histoire : la consigne ne donne plus la forme attendue avant 
 Correction d’un libellé : les formes alternatives de la base verbale étaient affichées comme « participe passé » dans la fiche verbe.
 Visuel inchangé. Clé de sauvegarde inchangée : les acquis des versions précédentes sont repris.
 Vérifié dans Chromium (bureau, mobile 390 px, et navigateur simulé sans fonctions récentes ni <dialog>) : douze activités, parcours guidé, fenêtres de confirmation, fiche verbe, export, import invalide, effacement, import valide. Mise en page : sur iOS antérieur à 14.5, certains espacements (propriété gap) peuvent être plus serrés, sans blocage. Pas de test sur iPad physique.
+
+VERSION 3.3 — ICÔNES ET SONS
+Icônes recadrées : les planches d’images (univers, activités, commandes) avaient des dessins qui débordaient de leur case, d’où des morceaux de l’icône voisine sur Everyday life, Sporting activities et Cooking. Chaque dessin est maintenant isolé et centré dans sa case, sur les trois planches.
+Effets sonores synthétisés par le navigateur (Web Audio), sans fichier audio : clic bois sur les boutons, pose de bloc (lettres et mots), carte retournée, bonne réponse, réponse avec indice, erreur, fin de séance, passage de niveau, aménagement installé.
+Bouton haut-parleur dans l’en-tête pour couper ou remettre les sons ; le choix est mémorisé sur l’appareil. La synthèse vocale des verbes n’est pas concernée par ce bouton.
+Sur iPhone/iPad, les sons démarrent après le premier toucher (règle du système). Le bouton silencieux de l’appareil peut aussi les couper.
+Correction de compatibilité : Object.hasOwn (absent avant iOS 15.4) est désormais complété ; la 3.2 pouvait bloquer l’accueil sur ces appareils.
