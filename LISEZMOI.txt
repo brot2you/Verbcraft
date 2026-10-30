@@ -1,0 +1,94 @@
+VERBCRAFT — Version 3.2 — 30 octobre 2026
+
+DÉMARRER
+Décompressez le ZIP puis ouvrez index.html dans un navigateur récent.
+L’application tient dans ce seul fichier HTML : aucun serveur, compte ou installation nécessaire.
+Sur GitHub Pages : déposez index.html à la racine du dépôt puis activez Pages depuis la branche principale. Le dossier documents et le CSV sont des ressources complémentaires ; l’application fonctionne sans eux.
+Sur un téléphone, utilisez de préférence la version publiée sur GitHub Pages : l’aperçu de fichiers de certains systèmes n’exécute pas les applications HTML locales.
+
+CONTENU
+118 verbes distincts, 122 entrées, 4 univers, 18 sous-thèmes.
+L’ordre des documents et leurs quatre colonnes sont conservés dans l’atlas.
+Choix multiple de thèmes, nombre de verbes (1 à 118, dans la limite du choix), sélection dans l’ordre, aléatoire, adaptative ou manuelle.
+12 activités : cartes découverte, sens, QCM de formes, trio écrit, dictée audio, lettres mélangées, associations, familles de formes, phrases à trous, correction de formes, phrases à reconstruire, production d’un récit.
+Parcours guidé : cartes puis deux exercices par verbe (trio et contexte).
+Les erreurs reviennent une fois dans la séance ; un dernier item échoué revient immédiatement faute d’autres items disponibles.
+Les duos se jouent par manches de six paires au maximum. Une nouvelle manche permet de parcourir le lot sélectionné au hasard.
+
+PROGRESSION
+Le rappel sans aide est suivi séparément de la reconnaissance.
+Un succès sans aide programme un retour à 1, 3, 7, 14 puis 30 jours, au plus une montée par jour et par forme.
+Une erreur remet la forme au départ et propose un retour dans 10 minutes.
+Un verbe consolidé requiert au moins trois jours de succès sans aide pour chacune des formes, et un palier d’au moins 3/5. Ce repère n’est ni une garantie de rétention ni un niveau CECRL.
+Les exercices avec choix ou lettres, et les réponses avec indice, ne font pas monter ce palier.
+Les XP récompensent les activités ; ils ne mesurent pas une compétence certifiée.
+La production écrite est sauvegardée, sans correction grammaticale automatique ni notation.
+
+ÉCOUTE
+Synthèse vocale du navigateur : préférence anglais britannique/américain, trois vitesses dans Mes verbes.
+Aucun fichier audio préenregistré. La disponibilité et la qualité hors connexion dépendent des voix installées et du système. Tester l’écoute avant une séance de classe.
+Pour read isolé, la forme passée est lue avec le son /red/ ; la base avec /riːd/.
+
+SAUVEGARDE
+Données locales au navigateur et à l’appareil. Sans synchronisation ni compte.
+Export/import JSON depuis Mon carnet. Sauvegardez avant de changer d’appareil ou d’effacer les données du navigateur.
+L’import remplace le carnet local après confirmation et validation du fichier.
+
+CORRECTIONS DES DOCUMENTS
+lay — laid — laid (le participe passé lain dans la fiche appartient à lie).
+grow (up) — grew (up) — grown (up).
+bear — bore — borne pour porter/supporter ; born correspond à la naissance.
+Les notes figurent dans l’atlas. Les variantes usuelles britanniques/américaines sont acceptées selon la forme. Les formes complètes deal with, grow up et wake up sont aussi acceptées en rappel isolé.
+Les traductions ont parfois été explicitées pour lever des ambiguïtés (teach, hit…).
+
+SCIENCES COGNITIVES
+Karpicke & Roediger (2008), The Critical Importance of Retrieval for Learning.
+https://doi.org/10.1126/science.1182408
+Dunlosky et al. (2013), Improving Students’ Learning With Effective Learning Techniques.
+https://doi.org/10.1177/1529100612453266
+Le rappel actif et la pratique espacée ont motivé les choix pédagogiques. Le calendrier précis, la taille des lots, l’interface et les récompenses de cette application n’ont pas fait l’objet d’une validation expérimentale propre.
+
+VÉRIFICATIONS
+Contrôles du corpus, variantes, accords en contexte, générations des activités, retours d’erreur, sélection stable et séparation reconnaissance/rappel.
+Parcours guidé vérifié dans Chrome : choix du nombre, découverte, trio, erreur, nouvelle tentative, bilan et carnet.
+Interface adaptative prévue pour ordinateur/tablette/téléphone ; pas de validation physique sur chaque modèle d’appareil.
+
+DA VERBCRAFT — VERSION 2
+Nouvelle carte en cubes illustrée avec quatre entrées cliquables.
+Habillage bois, pierre et parchemin sur les douze activités, l’atlas, le carnet et la méthode.
+Atelier Mon monde : lanternes après 1 verbe consolidé, bannières après 3 et jardinières après 5 dans chaque territoire. Les aménagements équipés apparaissent sur la carte.
+Les bâtiments de fond restent identiques ; ce sont les éléments décoratifs qui se débloquent et s’installent.
+La clé de sauvegarde d’origine est conservée : à adresse et navigateur identiques, les acquis de la version précédente sont repris. Les sauvegardes JSON précédentes restent importables. Un fichier local déplacé ou renommé peut avoir un stockage différent selon le navigateur : utilisez export/import.
+Tout est inclus dans index.html, illustration comprise : aucun dossier assets à installer.
+
+CORRECTION 2.1 — COMMANDES
+Navigation interne directe sans dépendre du changement de fragment d’URL.
+Boutons gérés par des écouteurs de clic, sans attributs JavaScript intégrés au balisage.
+Validation par boutons explicites et touche Entrée, compatible avec les cadres intégrés qui bloquent la soumission native des formulaires.
+Vérification dans le cadre isolé : choix du thème, lancement, cartes, trio, réponse en contexte, bilan, carnet et touche Entrée.
+
+VERSION 2.2 — BOUTONS ET ICÔNES
+Icônes voxel originales adaptées aux tailles d’affichage, pour les douze activités, les quatre univers, la navigation et les commandes principales.
+Boutons en bois sculpté avec relief, éclaircissement au survol et enfoncement à l’activation.
+Cibles adaptées au toucher et intitulés visibles, sans dépendance au survol.
+La gestion des clics et de la validation de la version corrigée est conservée.
+Tout reste inclus dans index.html, sans installation supplémentaire.
+
+VERSION 3 — GRAPHISMES VOXEL HD
+Nouveaux objets de jeu et bâtiments en volume avec textures détaillées, intégrés aux icônes des douze activités, aux quatre territoires, aux menus et aux commandes. Matière bois pixelisée sur les boutons. Les images sont optimisées pour les tailles d’affichage ; les textes et les actions restent des éléments interactifs.
+
+VERSION 3.1 — CORPUS COMPLÉTÉ
+Ajout de see/saw/seen dans Interacting, let/let/let dans Friendship, fly/flew/flown dans Moving. Ces ajouts sont signalés dans l’atlas. 118 verbes distincts et 122 entrées thématiques. Bouton Les essentiels : sélection pédagogique de 30 verbes. Bouton Nouveaux : accès direct aux trois ajouts dans les douze activités. Les anciennes sauvegardes sont conservées et importables.
+
+VERSION 3.2 — COMPATIBILITÉ ET CONTENU
+Code ramené en syntaxe ES5 (aucune fonction fléchée, let/const, spread ni chaînage optionnel), contrôlé par un analyseur ES5 strict. Compléments intégrés pour les fonctions récentes (includes, flatMap, replaceAll, Object.entries…) afin de fonctionner sur les iPad anciens.
+Les quatre boîtes confirm() du navigateur sont remplacées par une fenêtre intégrée (quitter une séance, importer, effacer) : Annuler, Échap et clic à côté ferment sans rien changer.
+La fiche verbe (<dialog>) dispose d’un repli pour les navigateurs qui ne gèrent pas cet élément (iOS antérieur à 15.4).
+Import de sauvegarde par FileReader (plus d’async/await).
+Données des verbes déplacées dans un bloc <script type="application/json" id="vc-data">, lu par JSON.parse.
+Sens français désambiguïsés pour le rappel : steal = voler (dérober), speed = aller vite, filer, strike = frapper fort, heurter, tell = raconter, dire à quelqu’un, let = permettre, laisser faire, leave = partir, quitter, rise = s’élever, se lever (soleil), get = obtenir, recevoir, make = fabriquer, faire (un gâteau…), smell = sentir (une odeur).
+Phrases revues : forecast, cost, swear, stink.
+Activité Dans l’histoire : la consigne ne donne plus la forme attendue avant la réponse ; la règle reste expliquée dans la correction.
+Correction d’un libellé : les formes alternatives de la base verbale étaient affichées comme « participe passé » dans la fiche verbe.
+Visuel inchangé. Clé de sauvegarde inchangée : les acquis des versions précédentes sont repris.
+Vérifié dans Chromium (bureau, mobile 390 px, et navigateur simulé sans fonctions récentes ni <dialog>) : douze activités, parcours guidé, fenêtres de confirmation, fiche verbe, export, import invalide, effacement, import valide. Mise en page : sur iOS antérieur à 14.5, certains espacements (propriété gap) peuvent être plus serrés, sans blocage. Pas de test sur iPad physique.
