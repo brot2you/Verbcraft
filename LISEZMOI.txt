@@ -1,4 +1,4 @@
-VERBCRAFT — Version 3.7 — 30 octobre 2026
+VERBCRAFT — Version 3.8 — 30 octobre 2026
 
 DÉMARRER
 Décompressez le ZIP puis ouvrez index.html dans un navigateur récent.
@@ -126,7 +126,12 @@ Ancienne sauvegarde : un aménagement installé est converti vers l’objet du m
 
 ILLUSTRATIONS
 Les 20 objets ont désormais leur illustration (3 de la version 3.5 et 17 nouvelles). Images recadrées, réduites à 256 px et intégrées dans index.html (environ 300 Ko pour les 17).
-Sur téléphone, la carte est petite et les boutons des territoires en recouvrent une partie : certains objets installés y sont masqués. Ils restent visibles sur tablette et ordinateur.
 
 VERSION 3.7 — ILLUSTRATIONS DES OBJETS
 Les 17 caisses provisoires sont remplacées par les illustrations fournies, dans l’onglet Aménagements, sur la carte et dans les vignettes « Aménagement débloqué ». index.html pèse maintenant environ 1,4 Mo.
+
+VERSION 3.8 — CARTE D’ACCUEIL SUR SMARTPHONE
+Sur téléphone (600 px et moins), la carte occupe toute la largeur et toute la hauteur du cadre, sans bandes de ciel ; un léger recadrage sur les côtés agrandit l’image d’environ 25 %. Le grand titre VERBCRAFT est masqué sur la carte (il reste dans l’en-tête).
+Les boutons des territoires deviennent des étiquettes compactes (icône + nom) posées devant chaque île. Les boutons Mes verbes / Jouer / Mon carnet passent sous la carte et ne la recouvrent plus. Réglages supplémentaires sous 380 px.
+Les objets installés se placent sur l’image recadrée ; ceux qui tombent hors du cadre sur téléphone ne s’affichent pas (11 sur 20 visibles), tous restent visibles sur tablette et ordinateur.
+Vérifié à 320, 360, 390, 600 et 1280 px : aucun défilement horizontal.
